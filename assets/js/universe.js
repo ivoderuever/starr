@@ -60,7 +60,7 @@ const draw = () => {
 
     const oneFullLoop = 2 * Math.PI,
       numberOfLoops = 50 - index,
-      velocity = (oneFullLoop * numberOfLoops) / 90,
+      velocity = (oneFullLoop * numberOfLoops) / 120,
       maxAngle = 2 * Math.PI,
       distance = Math.PI + ((elapsedTime * velocity)),
       modDistance = distance % maxAngle,
