@@ -1,3 +1,5 @@
+// Credit to https://www.youtube.com/@Hyperplexed for the inspiration.
+
 const paper = document.querySelector('#paper'),
   pencil = paper.getContext('2d');
 
@@ -9,7 +11,7 @@ const settings = {
   pulseEnabled: true
 }
 
-document.onvisibilitychange = () => soundEnabled = false;
+// document.onvisibilitychange = () => soundEnabled = false;
 
 // paper.onclick = () => soundEnabled = !soundEnabled;
 
